@@ -1,5 +1,6 @@
 package restfulBooker.postRequest;
 
+import io.restassured.path.json.JsonPath;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -29,7 +30,11 @@ public class CreateBooking {
 				"    \"additionalneeds\" : \"Breakfast\"\r\n" + 
 				"}").contentType(ContentType.JSON);
 		Response reponse=requestSpecification.post();
-		
+		String responseBody = reponse.asPrettyString();
+
+		JsonPath jsonPath= new JsonPath(responseBody);
+		Object obj=jsonPath.get("booking.bookingdates.checkin");
+		System.out.println(obj );
 		reponse.then().statusCode(200).log().all();
 	}
 
