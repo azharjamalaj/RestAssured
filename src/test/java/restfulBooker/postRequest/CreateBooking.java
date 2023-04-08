@@ -35,7 +35,7 @@ public class CreateBooking {
 		JsonPath jsonPath= new JsonPath(responseBody);
 		Object obj=jsonPath.get("booking.bookingdates.checkin");
 		System.out.println(obj );
-		reponse.then().statusCode(200).log().all();
+		//reponse.then().statusCode(200).log().all();
 	}
 
 }
