@@ -1,0 +1,66 @@
+[
+
+
+  {
+    "id": 1,
+    "first_name": "Sebastian",
+    "last_name": "Eschweiler",
+    "email": "sebastian@javatpoint.com"
+  },
+  {
+    "id": 2,
+    "first_name": "Steve",
+    "last_name": "Palmer",
+    "email": "steve@javatpoint.com"
+  },
+  {
+    "id": 3,
+    "first_name": "Ann",
+    "last_name": "Smith",
+    "email": "ann@javatpoint.com"
+  },
+  {
+    "id": 4,
+    "first_name": "Azhar",
+    "last_name": "Jamal",
+    "email": "jamal@javatpoint.com"
+  },
+  {
+    "id": 5,
+    "first_name": "Nadia",
+    "last_name": "Azhar",
+    "email": "azhar@javatpoint.com"
+  },
+  {
+    "id": 6,
+    "first_name": "Payal",
+    "last_name": "Agarwal",
+    "email": "payal@javatpoint.com"
+  },
+  {
+    "id": 7,
+    "first_name": "Nazni",
+    "last_name": "Tabassum",
+    "email": "tsbsssum@javatpoint.com"
+  },
+  {
+    "id": 8,
+    "first_name": "Raja",
+    "last_name": "Khalid",
+    "email": "raja@javatpoint.com"
+  },
+  {
+    "id": 9,
+    "first_name": "Sadik",
+    "last_name": "Matin",
+    "email": "matin@javatpoint.com"
+  },
+  {
+    "id": 10,
+    "first_name": "Matin",
+    "last_name": "Sabir",
+    "email": "sabir@javatpoint.com"
+  }
+
+
+]
